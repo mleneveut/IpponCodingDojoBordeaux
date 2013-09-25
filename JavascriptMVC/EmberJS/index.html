@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ember Starter Kit</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ 	<script type="text/x-handlebars" data-template-name="producteurs">
+		<section>
+			<header>
+				<h1>Liste des producteurs</h1>
+			</header>
+		</section>
+
+	    <table border="1px solid black" cellpadding="5">
+	    	<tr>
+	    		<th>Identifiant</th>
+	    		<th>Nom</th>
+	    		<th>Type</th>
+	    	</tr>
+	    	{{#each}}
+	    	<tr>
+	    		<td>{{id}}</td>
+	    		<td>{{name}}</td>
+	    		<td>{{type}}</td>
+	    	</tr>
+			{{/each}}
+		</table>
+		<section>
+			{{#link-to "producteurs.new"}}Create new{{/link-to}}
+		</section>
+		{{outlet}}
+	</script>
+
+ 	<script type="text/x-handlebars" data-template-name="producteurs/new">
+		<section>
+			<header>
+				<h1>Nouveau producteur</h1>
+			</header>
+		</section>
+		<section>
+			<form method="POST">
+				<div>
+					<label for="name">Name:</label>
+					{{input type="text" id="name"}}
+				</div>
+				<div>
+					<label for="type">Type:</label>
+					{{input type="text" id="type"}}
+				</div>
+				<div>
+					{{input type="button" action="createProducteur" value="Save"}}
+				</div>
+			</form>
+		</section>
+ 	</script>
+
+  <script src="js/libs/jquery-1.9.1.js"></script>
+  <script src="js/libs/handlebars-1.0.0.js"></script>
+  <script src="js/libs/ember-1.0.0.js"></script>
+  <script src="js/libs/ember-data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/controllers.js"></script>
+
+</body>
+</html>

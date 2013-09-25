@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Knockout JS</title>
+	</head>
+	<body>
+		Producer : <div data-bind="text: chosenProducer"></div>
+		<section>
+			<header>
+				<h1>Producer Application</h1>
+			</header>
+		</section>
+
+		<section data-bind:"with: chosenList">
+			<h2>List</h2>
+			<table border="1px solid black" cellpadding="5">
+				<thead>
+					<tr>
+						<th>Identifiant</th>
+						<th>Nom</th>
+						<th>Type</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody data-bind="foreach: producers">
+					<tr>
+						<td data-bind="text: id"></td>
+						<td data-bind="text: name"></td>
+						<td data-bind="text: type"></td>
+						<td><a href="#" data-bind="click: $root.goToDetail">Details</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+			<section data-bind:"with: chosenProducer">
+				<h2>Details</h2>
+
+				Id: <span data-bind="text: $data.id"></span><br />
+				Name: <span data-bind="text: $data.name"></span><br />
+				Type: <span data-bind="text: $data.type"></span>
+
+				<br /><br />
+
+				<a href="#" data-bind="click: $root.goToList">&lt;&lt; Back</a>
+			</section>
+
+		<footer>
+			<script type="text/javascript" src="http://knockoutjs.com/downloads/knockout-2.3.0rc.js"></script>
+			<script type="text/javascript" src="js/controller.js"></script>
+		</footer>
+	</body>
+</html>
