@@ -1,0 +1,732 @@
+11:20:24.023 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+11:20:24.169 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+11:20:24.578 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+11:20:24.584 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+11:20:26.777 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 1,925 s
+11:20:26.842 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+11:20:43.362 [qtp2011579990-21 ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+11:20:43.721 [qtp2011579990-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 3,049 ms
+11:20:43.825 [qtp2011579990-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 401 - 2,692 ms
+11:20:43.870 [qtp2011579990-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 401 - 2,310 ms
+11:20:51.137 [qtp2011579990-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> 200 - 311,0 ms
+11:20:51.276 [qtp2011579990-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 3,782 ms
+11:20:51.332 [qtp2011579990-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 16,07 ms
+11:20:51.342 [qtp2011579990-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 7,517 ms
+11:20:54.053 [qtp2011579990-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 8,454 ms
+11:20:54.053 [qtp2011579990-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 9,740 ms
+11:20:54.110 [qtp2011579990-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 3,516 ms
+11:20:54.125 [qtp2011579990-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 7,464 ms
+11:20:54.189 [qtp2011579990-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 38,59 ms
+11:20:54.206 [qtp2011579990-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 40,44 ms
+11:20:54.208 [qtp2011579990-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 26,91 ms
+11:20:54.216 [qtp2011579990-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 23,16 ms
+11:20:54.220 [qtp2011579990-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 16,53 ms
+11:21:01.315 [qtp2011579990-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 6,576 ms
+11:21:01.323 [qtp2011579990-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 14,96 ms
+11:21:01.410 [qtp2011579990-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 54,31 ms
+11:21:04.469 [qtp2011579990-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 200 - 4,352 ms
+11:21:12.301 [qtp2011579990-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 5,199 ms
+11:21:12.337 [qtp2011579990-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 9,759 ms
+11:21:12.350 [qtp2011579990-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 12,11 ms
+11:21:12.361 [qtp2011579990-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 9,409 ms
+11:21:12.387 [qtp2011579990-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 14,68 ms
+11:21:12.399 [qtp2011579990-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 47,69 ms
+11:21:13.453 [qtp2011579990-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 4,420 ms
+11:21:13.463 [qtp2011579990-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 14,37 ms
+11:21:13.512 [qtp2011579990-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteur/{id}&httpMethod=GET >> 200 - 15,99 ms
+11:21:17.891 [qtp2011579990-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteur/1 >> 200 - 5,608 ms
+11:21:23.473 [qtp2011579990-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteur/4 >> 404 - 2,181 ms
+11:30:35.192 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 486,6 ms
+11:30:35.315 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 70,97 ms
+11:30:54.142 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+11:30:54.284 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+11:30:54.650 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+11:30:54.655 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+11:30:54.879 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+11:30:55.516 [qtp1197549556-20 ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+11:30:55.830 [qtp1197549556-20 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 183,2 ms
+11:30:56.012 [qtp1197549556-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 37,94 ms
+11:30:56.012 [qtp1197549556-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 48,72 ms
+11:30:56.014 [qtp1197549556-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 44,47 ms
+11:30:56.016 [qtp1197549556-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 80,33 ms
+11:30:56.023 [qtp1197549556-20 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 22,54 ms
+11:31:01.024 [qtp1197549556-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 14,34 ms
+11:31:01.033 [qtp1197549556-20 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 6,536 ms
+11:31:01.078 [qtp1197549556-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 4,280 ms
+11:31:01.089 [qtp1197549556-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 6,771 ms
+11:31:01.146 [qtp1197549556-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 15,49 ms
+11:31:01.150 [qtp1197549556-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 15,88 ms
+11:31:01.160 [qtp1197549556-20 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 18,79 ms
+11:31:01.180 [qtp1197549556-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 15,58 ms
+11:31:01.189 [qtp1197549556-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 71,27 ms
+11:31:27.808 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+11:31:27.981 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+11:31:28.324 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+11:31:28.330 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+11:31:30.110 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 1,570 s
+11:31:30.185 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+11:31:31.729 [qtp1506718462-21 ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+11:31:32.673 [qtp1506718462-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 113,1 ms
+11:31:32.684 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 16,83 ms
+11:31:32.694 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 129,2 ms
+11:31:32.715 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 17,04 ms
+11:31:32.890 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 128,1 ms
+11:31:32.900 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 36,59 ms
+11:31:32.914 [qtp1506718462-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 84,69 ms
+11:31:32.916 [qtp1506718462-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 168,1 ms
+11:31:32.917 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 154,4 ms
+11:31:32.926 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 56,49 ms
+11:31:34.973 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 9,990 ms
+11:31:34.985 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 19,34 ms
+11:31:35.068 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/marches&httpMethod=GET >> 200 - 48,78 ms
+11:31:43.071 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /marches >> 200 - 5,475 ms
+11:31:44.893 [qtp1506718462-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 8,441 ms
+11:31:44.942 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 16,29 ms
+11:31:44.961 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 29,90 ms
+11:31:44.961 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 24,04 ms
+11:31:44.962 [qtp1506718462-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 23,81 ms
+11:31:45.011 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 37,92 ms
+11:31:45.012 [qtp1506718462-23 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 20,51 ms
+11:31:45.896 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 3,851 ms
+11:31:45.900 [qtp1506718462-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 12,78 ms
+11:31:45.953 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/marche/{name}&httpMethod=GET >> 200 - 16,34 ms
+11:31:52.091 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /marche/Marche%20de%20Bordeaux >> 404 - 3,089 ms
+11:32:34.922 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 495,3 ms
+11:32:35.013 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 38,81 ms
+11:33:03.429 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 624,4 ms
+11:33:03.781 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 298,8 ms
+11:33:06.980 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 4,557 ms
+11:33:07.027 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 11,21 ms
+11:33:07.033 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 9,813 ms
+11:33:07.086 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 33,17 ms
+11:33:07.086 [qtp1506718462-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 34,90 ms
+11:33:07.116 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 13,43 ms
+11:33:07.146 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 13,60 ms
+11:33:08.637 [qtp1506718462-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 3,215 ms
+11:33:08.642 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 5,616 ms
+11:33:08.696 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 1,770 ms
+11:33:08.707 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 6,300 ms
+11:33:08.754 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 15,59 ms
+11:33:08.757 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 10,69 ms
+11:33:08.766 [qtp1506718462-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 18,41 ms
+11:33:08.781 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 10,45 ms
+11:33:08.791 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 11,59 ms
+11:33:08.815 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 11,13 ms
+11:33:09.690 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 3,434 ms
+11:33:09.711 [qtp1506718462-28 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 10,09 ms
+11:33:09.759 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/marche/{id}&httpMethod=GET >> 200 - 14,68 ms
+11:33:25.907 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 403,4 ms
+11:33:26.175 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 216,3 ms
+11:33:31.582 [qtp1506718462-21 ] ERROR restx.StdRestxMainRouter - request raised NullPointerException: null
+java.lang.NullPointerException: null
+	at fr.ippon.codingDojo.rest.MarcheResource.getMarche(MarcheResource.java:38) ~[classes/:na]
+	at fr.ippon.codingDojo.rest.MarcheResourceRouter$2.doRoute(MarcheResourceRouter.java:54) ~[classes/:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:40) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+11:33:31.590 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /marche/%C3%A9 >> 500 - 15,96 ms
+11:33:54.705 [qtp1506718462-21 ] ERROR restx.StdRestxMainRouter - request raised NullPointerException: null
+java.lang.NullPointerException: null
+	at fr.ippon.codingDojo.rest.MarcheResource.getMarche(MarcheResource.java:38) ~[classes/:na]
+	at fr.ippon.codingDojo.rest.MarcheResourceRouter$2.doRoute(MarcheResourceRouter.java:54) ~[classes/:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:40) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+11:33:54.707 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /marche/2 >> 500 - 4,665 ms
+11:34:10.539 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 3,433 ms
+11:34:10.571 [qtp1506718462-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 9,743 ms
+11:34:10.581 [qtp1506718462-28 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 13,97 ms
+11:34:10.605 [qtp1506718462-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 6,146 ms
+11:34:10.611 [qtp1506718462-28 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 6,278 ms
+11:34:10.649 [qtp1506718462-26 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 10,24 ms
+11:34:10.666 [qtp1506718462-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 12,59 ms
+11:34:24.533 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+11:34:24.664 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+11:34:24.984 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+11:34:24.989 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+11:34:25.223 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+11:34:26.835 [qtp290025410-21  ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+11:34:30.799 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 61,93 ms
+11:34:30.806 [qtp290025410-25  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 72,90 ms
+11:34:30.818 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 6,530 ms
+11:34:30.866 [qtp290025410-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 24,81 ms
+11:34:31.040 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 50,85 ms
+11:34:31.047 [qtp290025410-25  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 61,87 ms
+11:34:31.059 [qtp290025410-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 108,5 ms
+11:34:31.073 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 103,7 ms
+11:34:31.094 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 18,00 ms
+11:34:31.097 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 143,8 ms
+11:34:31.709 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 10,51 ms
+11:34:31.731 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 18,82 ms
+11:34:31.820 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/marche/{id}&httpMethod=GET >> 200 - 44,26 ms
+11:34:35.419 [qtp290025410-22  ] ERROR restx.StdRestxMainRouter - request raised NullPointerException: null
+java.lang.NullPointerException: null
+	at fr.ippon.codingDojo.rest.MarcheResource.getMarche(MarcheResource.java:38) ~[classes/:na]
+	at fr.ippon.codingDojo.rest.MarcheResourceRouter$2.doRoute(MarcheResourceRouter.java:54) ~[classes/:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:40) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+11:34:35.424 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /marche/2 >> 500 - 17,07 ms
+11:34:59.489 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 7 sources compiled in 1,676 s
+11:34:59.615 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 72,67 ms
+11:35:07.299 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /marche/2 >> 200 - 4,048 ms
+11:35:13.149 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 4,262 ms
+11:35:13.186 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 9,488 ms
+11:35:13.219 [qtp290025410-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 11,95 ms
+11:35:13.241 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 15,90 ms
+11:35:13.264 [qtp290025410-25  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 14,22 ms
+11:35:13.277 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 15,55 ms
+11:35:13.281 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 35,12 ms
+11:36:32.847 [pool-4-thread-1  ] INFO  restx.classloader.CompilationManager - classpath resource updated: fr\ippon\codingDojo\rest\ProducteurResource.java___jb_bak___
+11:44:15.968 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 98,70 ms
+11:44:45.570 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 76,48 ms
+11:52:41.371 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 55,65 ms
+11:53:23.306 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 76,52 ms
+11:53:34.300 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 65,69 ms
+11:54:02.848 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 67,95 ms
+11:59:48.388 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 65,51 ms
+12:01:17.203 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 103,7 ms
+12:07:39.476 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+12:07:39.646 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+12:07:40.007 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+12:07:40.013 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+12:07:41.924 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 1,693 s
+12:07:41.999 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+12:07:44.321 [qtp290025410-21  ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+12:07:45.356 [qtp290025410-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 51,68 ms
+12:07:45.363 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 16,18 ms
+12:07:45.414 [qtp290025410-26  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 7,350 ms
+12:07:45.429 [qtp290025410-25  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 13,79 ms
+12:07:45.507 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 19,95 ms
+12:07:45.525 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 67,95 ms
+12:07:45.549 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 31,43 ms
+12:07:45.552 [qtp290025410-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 53,01 ms
+12:07:45.579 [qtp290025410-21  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 39,44 ms
+12:07:45.579 [qtp290025410-26  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 22,21 ms
+12:07:48.897 [qtp290025410-24  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 9,310 ms
+12:07:48.908 [qtp290025410-25  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 20,65 ms
+12:07:49.007 [qtp290025410-22  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs/search&httpMethod=POST >> 200 - 45,30 ms
+12:08:58.215 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+12:08:58.359 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+12:08:58.706 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+12:08:58.713 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+12:08:58.980 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+12:09:11.885 [qtp596382515-23  ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+12:09:22.092 [qtp596382515-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 200 - 9,875 s
+12:10:22.242 [qtp596382515-23  ] WARN  restx.StdRestxMainRouter - request raised JsonParseException
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting double-quote to start field name
+ at [Source: restx.servlet.HttpServletRestxRequest$1@65c503d6; line: 2, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1378) ~[jackson-core-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599) ~[jackson-core-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520) ~[jackson-core-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnusualFieldName(UTF8StreamJsonParser.java:1724) ~[jackson-core-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseFieldName(UTF8StreamJsonParser.java:1414) ~[jackson-core-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:677) ~[jackson-core-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:114) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2797) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1989) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at fr.ippon.codingDojo.rest.ProducteurResourceRouter$2.doRoute(ProducteurResourceRouter.java:54) ~[classes/:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:40) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+12:10:22.264 [qtp596382515-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 400 - 48,97 ms
+13:37:36.096 [qtp596382515-23  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 200 - 5209 s
+13:40:46.388 [qtp596382515-25  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 200 - 150,4 s
+13:40:49.509 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 2,754 s
+13:40:50.289 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 746,0 ms
+13:40:50.464 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 115,7 ms
+13:42:00.640 [qtp596382515-27  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 200 - 15,15 s
+13:42:21.795 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 678,7 ms
+13:42:21.901 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 53,36 ms
+13:45:15.217 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 876,2 ms
+13:45:15.394 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 123,1 ms
+13:45:26.489 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 679,3 ms
+13:45:26.611 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 70,53 ms
+13:48:07.673 [qtp596382515-32  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 200 - 158,4 s
+13:48:08.370 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 618,7 ms
+13:48:08.497 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 74,19 ms
+13:48:27.714 [qtp596382515-36  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 26,90 ms
+13:48:27.751 [qtp596382515-37  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 35,04 ms
+13:48:27.991 [qtp596382515-32  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 3,755 ms
+13:48:28.043 [qtp596382515-34  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 46,02 ms
+13:48:28.148 [qtp596382515-32  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 64,87 ms
+13:48:28.159 [qtp596382515-35  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 45,22 ms
+13:48:28.166 [qtp596382515-33  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 73,18 ms
+13:48:28.168 [qtp596382515-34  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 77,73 ms
+13:48:28.169 [qtp596382515-37  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 64,30 ms
+13:48:28.170 [qtp596382515-36  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 68,41 ms
+13:49:04.914 [qtp596382515-37  ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /producteurs/search >> 200 - 23,72 s
+14:37:41.900 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 14,40 s
+14:37:45.119 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 3,124 s
+16:41:42.664 [main             ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+16:41:42.898 [main             ] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+16:41:43.379 [main             ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+16:41:43.383 [main             ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://localhost:8080/api/@/ui/
+ --
+
+16:41:45.354 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 3 sources compiled in 1,521 s
+16:41:45.460 [main             ] INFO  restx.classloader.CompilationManager - watching for changes in [src\main\java, src\main\resources]; current location is C:\Users\kjahan\coding-dojo\.
+16:42:04.459 [qtp1319177384-21 ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.0.Final
+16:42:05.398 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 17,43 ms
+16:42:05.586 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 401 - 25,49 ms
+16:42:05.669 [qtp1319177384-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 401 - 458,1 μs
+16:42:13.693 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> 200 - 532,9 ms
+16:42:13.928 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 3,733 ms
+16:42:13.979 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 4,884 ms
+16:42:14.007 [qtp1319177384-36 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 27,28 ms
+16:42:15.590 [qtp1319177384-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 2,765 ms
+16:42:15.597 [qtp1319177384-35 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 6,388 ms
+16:42:15.669 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 3,035 ms
+16:42:15.696 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 7,488 ms
+16:42:15.807 [qtp1319177384-35 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 78,17 ms
+16:42:15.807 [qtp1319177384-21 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 17,47 ms
+16:42:15.835 [qtp1319177384-36 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 103,8 ms
+16:42:15.837 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 37,71 ms
+16:42:15.837 [qtp1319177384-34 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 31,30 ms
+16:42:15.838 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 87,20 ms
+16:42:18.841 [qtp1319177384-34 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 5,003 ms
+16:42:18.845 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 10,54 ms
+16:42:19.015 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 80,09 ms
+16:42:23.139 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 200 - 96,24 ms
+16:43:16.349 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 992,0 ms
+16:43:16.653 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 250,4 ms
+16:43:23.248 [qtp1319177384-35 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 7,192 ms
+16:43:23.285 [qtp1319177384-34 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 18,96 ms
+16:43:23.351 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 5,939 ms
+16:43:23.360 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 13,47 ms
+16:43:23.398 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 13,64 ms
+16:43:27.709 [qtp1319177384-35 ] ERROR restx.StdRestxMainRouter - request raised MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+org.jongo.marshall.MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:45) ~[jongo-0.4.jar:na]
+	at org.jongo.ResultHandlerFactory$ResultUnmarshallingHandler.map(ResultHandlerFactory.java:43) ~[jongo-0.4.jar:na]
+	at org.jongo.MongoIterator.next(MongoIterator.java:44) ~[jongo-0.4.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145) ~[guava-14.0.1.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125) ~[guava-14.0.1.jar:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:46) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: No suitable constructor found for type [simple type, class fr.ippon.codingDojo.model.Producteur]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: de.undercouch.bson4jackson.io.LittleEndianInputStream@625ebffa; pos: 0]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObjectUsingNonDefault(BeanDeserializer.java:400) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:289) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1206) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:852) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:42) ~[jongo-0.4.jar:na]
+	... 37 common frames omitted
+16:43:27.713 [qtp1319177384-35 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 500 - 102,5 ms
+16:43:58.271 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 562,7 ms
+16:43:58.370 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 47,33 ms
+16:44:07.136 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 553,8 ms
+16:44:07.497 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 309,7 ms
+16:44:19.447 [qtp1319177384-25 ] ERROR restx.StdRestxMainRouter - request raised MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+org.jongo.marshall.MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:45) ~[jongo-0.4.jar:na]
+	at org.jongo.ResultHandlerFactory$ResultUnmarshallingHandler.map(ResultHandlerFactory.java:43) ~[jongo-0.4.jar:na]
+	at org.jongo.MongoIterator.next(MongoIterator.java:44) ~[jongo-0.4.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145) ~[guava-14.0.1.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125) ~[guava-14.0.1.jar:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:46) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: No suitable constructor found for type [simple type, class fr.ippon.codingDojo.model.Producteur]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: de.undercouch.bson4jackson.io.LittleEndianInputStream@2542d03; pos: 0]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObjectUsingNonDefault(BeanDeserializer.java:400) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:289) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1206) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:852) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:42) ~[jongo-0.4.jar:na]
+	... 37 common frames omitted
+16:44:19.449 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 500 - 10,17 ms
+16:44:23.202 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 3,627 ms
+16:44:23.210 [qtp1319177384-36 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 10,51 ms
+16:44:23.318 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 7,529 ms
+16:44:23.319 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 15,38 ms
+16:44:23.395 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 18,00 ms
+16:44:25.058 [qtp1319177384-25 ] ERROR restx.StdRestxMainRouter - request raised MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+org.jongo.marshall.MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:45) ~[jongo-0.4.jar:na]
+	at org.jongo.ResultHandlerFactory$ResultUnmarshallingHandler.map(ResultHandlerFactory.java:43) ~[jongo-0.4.jar:na]
+	at org.jongo.MongoIterator.next(MongoIterator.java:44) ~[jongo-0.4.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145) ~[guava-14.0.1.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125) ~[guava-14.0.1.jar:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:46) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: No suitable constructor found for type [simple type, class fr.ippon.codingDojo.model.Producteur]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: de.undercouch.bson4jackson.io.LittleEndianInputStream@11da9887; pos: 0]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObjectUsingNonDefault(BeanDeserializer.java:400) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:289) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1206) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:852) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:42) ~[jongo-0.4.jar:na]
+	... 37 common frames omitted
+16:44:25.061 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 500 - 8,763 ms
+16:45:55.593 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 781,6 ms
+16:45:55.715 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 69,91 ms
+16:46:05.176 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 2,064 ms
+16:46:05.186 [qtp1319177384-124] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 3,722 ms
+16:46:05.277 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 5,535 ms
+16:46:05.286 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 13,36 ms
+16:46:05.324 [qtp1319177384-124] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 11,22 ms
+16:46:09.042 [qtp1319177384-22 ] ERROR restx.StdRestxMainRouter - request raised MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+org.jongo.marshall.MarshallingException: Unable to unmarshall result to class fr.ippon.codingDojo.model.Producteur from content { "_id" : { "$oid" : "52419b413def166885dcc482"} , "name" : "florian" , "description" : "Florian le producteur"}
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:45) ~[jongo-0.4.jar:na]
+	at org.jongo.ResultHandlerFactory$ResultUnmarshallingHandler.map(ResultHandlerFactory.java:43) ~[jongo-0.4.jar:na]
+	at org.jongo.MongoIterator.next(MongoIterator.java:44) ~[jongo-0.4.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145) ~[guava-14.0.1.jar:na]
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125) ~[guava-14.0.1.jar:na]
+	at restx.StdEntityRoute.handle(StdEntityRoute.java:46) ~[restx-core-0.2.9.2.jar:na]
+	at restx.security.RestxSessionFilter.handle(RestxSessionFilter.java:79) ~[restx-core-0.2.9.2.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:127) ~[restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:153) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:134) [restx-core-0.2.9.2.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:255) [restx-core-0.2.9.2.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:44) [restx-servlet-0.2.9.2.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:724) [na:1.7.0_40]
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: No suitable constructor found for type [simple type, class fr.ippon.codingDojo.model.Producteur]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: de.undercouch.bson4jackson.io.LittleEndianInputStream@47fd3eea; pos: 0]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObjectUsingNonDefault(BeanDeserializer.java:400) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:289) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1206) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:852) ~[jackson-databind-2.1.2.jar:2.1.2]
+	at org.jongo.marshall.jackson.JacksonEngine.unmarshall(JacksonEngine.java:42) ~[jongo-0.4.jar:na]
+	... 37 common frames omitted
+16:46:09.048 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 500 - 15,50 ms
+16:47:04.502 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 9 sources compiled in 442,3 ms
+16:47:04.597 [pool-2-thread-1  ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 43,54 ms
+16:47:08.409 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 2,970 ms
+16:47:08.410 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 5,080 ms
+16:47:08.493 [qtp1319177384-145] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 6,474 ms
+16:47:08.498 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 12,57 ms
+16:47:08.534 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 10,40 ms
+16:47:10.848 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 200 - 32,47 ms
+16:47:21.601 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 4,978 ms
+16:47:21.604 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 2,429 ms
+16:47:21.649 [qtp1319177384-145] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 9,161 ms
+16:47:21.666 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 7,962 ms
+16:47:21.693 [qtp1319177384-25 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 7,793 ms
+16:47:21.701 [qtp1319177384-125] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 12,17 ms
+16:47:21.729 [qtp1319177384-145] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 10,41 ms
+16:47:21.744 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 11,02 ms
+16:47:23.289 [qtp1319177384-22 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 5,713 ms
+16:47:23.296 [qtp1319177384-145] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 6,339 ms
+16:47:23.343 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteur/{id}&httpMethod=GET >> 200 - 15,41 ms
+16:47:26.564 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteur/52419b413def166885dcc482 >> 200 - 8,030 ms
+16:54:11.302 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 17,16 ms
+16:54:11.335 [qtp1319177384-182] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 5,517 ms
+16:54:11.337 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 9,023 ms
+16:54:11.346 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 5,384 ms
+16:54:11.373 [qtp1319177384-181] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 11,45 ms
+16:54:11.384 [qtp1319177384-185] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 6,986 ms
+16:54:11.389 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 9,530 ms
+16:54:53.862 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 1,989 ms
+16:54:53.953 [qtp1319177384-181] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 2,765 ms
+16:54:53.960 [qtp1319177384-184] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 7,582 ms
+16:55:06.878 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> 200 - 8,399 ms
+16:55:06.898 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> 200 - 28,48 ms
+16:55:06.940 [qtp1319177384-184] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png >> 404 - 2,558 ms
+16:55:06.947 [qtp1319177384-206] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 2,945 ms
+16:55:06.982 [qtp1319177384-185] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 7,932 ms
+16:55:06.995 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 14,39 ms
+16:55:07.001 [qtp1319177384-207] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 29,83 ms
+16:55:07.013 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 20,88 ms
+16:55:07.023 [qtp1319177384-181] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 20,41 ms
+16:55:07.030 [qtp1319177384-184] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 9,713 ms
+16:56:40.195 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 9,344 ms
+16:56:40.213 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 4,500 ms
+16:56:40.235 [qtp1319177384-207] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteurs&httpMethod=GET >> 200 - 10,30 ms
+16:56:56.443 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteurs >> 200 - 7,890 ms
+16:57:12.616 [qtp1319177384-181] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 4,211 ms
+16:57:12.642 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> 200 - 4,399 ms
+16:57:12.645 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 8,241 ms
+16:57:12.661 [qtp1319177384-207] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> 200 - 4,898 ms
+16:57:12.673 [qtp1319177384-206] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/marche >> 200 - 8,401 ms
+16:57:12.679 [qtp1319177384-181] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> 200 - 11,14 ms
+16:57:12.687 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> 200 - 10,29 ms
+16:57:17.556 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> 200 - 2,948 ms
+16:57:17.567 [qtp1319177384-206] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/producteur >> 200 - 11,44 ms
+16:57:17.623 [qtp1319177384-24 ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/producteur/{id}&httpMethod=GET >> 200 - 7,686 ms
+16:57:23.421 [qtp1319177384-183] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /producteur/5241a81fa162061f0aa032bd >> 200 - 5,731 ms
