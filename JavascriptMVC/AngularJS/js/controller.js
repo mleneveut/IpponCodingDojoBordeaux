@@ -16,24 +16,30 @@ var datas = [
 	}
 ];
 
-angular.module('codingDojo', [])
-.config(['$routeProvider', function($routeProvider) {
-	$routeProvider.when('/producers', {
-		templateUrl: 'partials/list.html',
-		controller: ProducerListCtrl
-	})
-	.when('/producers/:producerId', {
-		templateUrl: 'partials/detail.html',
-		controller: ProducerDetailCtrl
-	})
-	.otherwise({redirectTo: '/producers'});
-}]);
+var producerControllers = angular.module('producerControllers', []);
 
 
-function ProducerListCtrl($scope) {
-	$scope.producers = datas;
-}
+producerControllers.controller('ProducerListCtrl',['$scope','$http',
+    function($scope,$http) {
+        $scope.producers = datas;
+        angular.extend($scope, {
+            defaults: {
+                scrollWheelZoom: false
+            }
+        });
+    }]);
 
-function ProducerDetailCtrl($scope, $routeParams) {
-	$scope.producer = datas[0];
-}
+producerControllers.controller('ProducerDetailCtrl',['$scope','$routeParams',
+    function($scope,$routeParams) {
+        $scope.producers = datas[$routeParams.id];
+    }]);
+
+producerControllers.controller('AddProducerController', ['$scope','$routeParams', '$location',
+    function($scope,$routeParams, $location) {
+        $scope.addProducer = function($routeParams){
+            // validation
+            datas.push({id: datas[2].id + 1, name: $scope.newProducer.name, type: $scope.newProducer.type});
+            alert(datas[3].name);
+            $location.path('/');
+        }
+    }]);
